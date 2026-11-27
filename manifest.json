@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bar-buddies",
+  "name": "Bar Buddies",
+  "version": "1.0.0",
+  "description": "Dash and his dog Biscuit live on your bar: he dodges your mouse, pushes and rope-pulls widgets, and plays fetch with Biscuit.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Bar Buddies",
+    "description": "Dash and Biscuit roam the bar.",
+    "category": "Fun",
+    "defaultSection": "centerEnd",
+    "allowMultiple": false,
+    "aliases": ["pet", "pets", "runner", "dog", "dash", "biscuit"]
+  }
+}
